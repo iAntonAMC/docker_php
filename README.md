@@ -38,7 +38,7 @@ docker kill nice_albattani
 
 
 #
-docker tag isma:v2 sengokusama/prueba:latest
+docker tag ianton:amc sengokusama/prueba:latest
 
 #
 docker push sengokusama/prueba:latest
