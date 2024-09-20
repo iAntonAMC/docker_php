@@ -1,0 +1,146 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #0db7ed;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+img {
+    max-width: 250px;
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Sección informativa */
+.section-info {
+    background-color: white;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.section-info h2 {
+    font-size: 2rem;
+    color: #0db7ed;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.section-info p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.8;
+}
+
+.section-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.section-info ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos de imágenes */
+.section-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Sección destacada */
+.section-highlight {
+    background-color: #e8f7fc;
+    padding: 30px;
+    border-left: 4px solid #0db7ed;
+    margin: 40px 0;
+    border-radius: 8px;
+}
+
+.section-highlight h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.section-highlight p {
+    font-size: 1.1rem;
+}
+
+.section-highlight p {
+    color: #444;
+}
+
+/* Botón estilizado */
+.btn {
+    display: flex;
+    background-color: #0db7ed;
+    color: white;
+    padding: 10px 20px;
+    margin: auto;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0aa0c2;
+}
+
+/* Sección de pie de página */
+footer {
+    display: flex;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    height: 100px;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
